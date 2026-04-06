@@ -1,0 +1,78 @@
+#######################################
+# GENERAL
+#######################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+#######################################
+# ENV / SECRETS
+#######################################
+.env
+.env.*
+*.env
+application-dev.properties
+
+#######################################
+# JAVA (SPRING BOOT)
+#######################################
+backend/target/
+backend/*.log
+backend/.mvn/wrapper/maven-wrapper.jar
+
+#######################################
+# MAVEN
+#######################################
+backend/.classpath
+backend/.project
+backend/.settings/
+
+#######################################
+# NODE (FRONTEND)
+#######################################
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/build/
+
+#######################################
+# PYTHON (AI SERVICE)
+#######################################
+python-ai/__pycache__/
+python-ai/*.pyc
+python-ai/*.pyo
+python-ai/*.pyd
+python-ai/.pytest_cache/
+python-ai/.venv/
+python-ai/venv/
+
+#######################################
+# IDE FILES
+#######################################
+.vscode/
+.idea/
+*.iml
+
+#######################################
+# OS GENERATED
+#######################################
+*.pid
+*.seed
+*.pid.lock
+
+#######################################
+# DATABASE (OPTIONAL)
+#######################################
+*.db
+*.sqlite3
+
+#######################################
+# MODEL FILES (OPTIONAL - if large)
+#######################################
+python-ai/models/
+*.h5
+*.pt
+*.pth

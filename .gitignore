@@ -1,0 +1,37 @@
+# ===== JAVA / MAVEN (backend) =====
+backend/target/
+*.class
+*.jar
+*.war
+
+# ===== PYTHON AI =====
+python-ai/__pycache__/
+python-ai/*.pyc
+python-ai/.env
+python-ai/venv/
+
+# ===== NODE / REACT VITE (frontend) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ===== SECRETS - NEVER PUSH =====
+backend/src/main/resources/application.properties
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.iml
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== LOGS =====
+*.log
+
+# ===== ML MODELS (too large for github) =====
+*.pt
+*.pth
+*.pkl
+*.h5
